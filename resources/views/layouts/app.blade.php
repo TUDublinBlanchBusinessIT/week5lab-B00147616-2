@@ -23,6 +23,12 @@
               <li class="nav-item">
                 <a class="nav-link" href={{ route('members.index')}}>Members List</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href={{ route('members.create')}}>New Customer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href={{ route('courts.create')}}>New Courts</a>
+              </li>
             </ul>
           </div>
         </nav>
